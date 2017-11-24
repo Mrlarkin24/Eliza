@@ -1,16 +1,21 @@
 # DATA REPRESENTATION AND QUERYING PROJECT: Eliza ChatBot
 
 Name : Peter Larkin
+
 ID: G00332346
+
 Course: Software Development 
+
 Year: Third Year
 
 # How to run Eliza:
 
 1: First clone my repository:
+
 	-Enter "git clone https://github.com/Mrlarkin24/Eliza.git" into command prompt
 	
 2: Find cloned repository on system and build Chat.go (that is a capital (C)hat.go)
+
 	-Enter "go build Chat.go" into command prompt
 
 3: Run Chat.exe by double clicking it
@@ -30,8 +35,11 @@ Year: Third Year
 # Some of my References:
 
 (https://data-representation.github.io/)
+
 (https://stackoverflow.com/)
+
 (https://www.w3schools.com/jquery/)
+
 (http://api.jquery.com/jquery.ajax/)
 
 # Screenshot of Program:

@@ -1,0 +1,30 @@
+.overFlow{
+    overflow: auto;
+    display: flex;
+    flex-direction: column-reverse
+}
+
+body {
+    padding: 5%;
+    padding-top: 13%;  
+}
+
+
+.fixed-top{
+    color:white;
+}
+
+
+.list-group-item{
+   width: 35%;
+}
+
+#List{
+    margin-right: 30%   ;
+}
+
+figcaption{
+    color: black;
+    
+    font-size: 1.5em;
+}

@@ -1,0 +1,103 @@
+//  Lines with the (annotion) are comments
+//  the following post helped me
+//  https://stackoverflow.com/questions/47319703/golang-regular-expression-replaceallstring
+//  General 
+(.*)!
+Why are you shouting about %s;Wow does %s really excite you?
+Is it (.*)
+Do you think it is %s?;If I told you that it probably isn't %s, how would that make you feel?;If I told you that it probably is %s, how would that make you feel?
+I am (.*)
+How do you know you are %s?;Why do you think you are %s?
+you are (.*)
+Why do you think i am %s?; Maybe you are %s
+//
+//  Greetings
+hello (.*)
+hey how are you;Hello to you too
+hello
+Hello there :) What is your name?
+(?:name is|name'?s) (.*)
+Nice to meet you %s; Tell me something about yourself %s
+(?:your name|you're name|ur name)
+My name is Eliza;My name isn't important right now;My name is 01000101|01101100|01101001|01111010|01100001|00001101;You can call me Supreme Overlord
+how are you(.*)
+Im good  how are you ?;I am great thanks for asking;Less about me tell me something about yourself
+(?:i?m good|im good|i am good|i'm good) (.*)
+Well im glad that your good;Any particular reason why you feel good?
+hey(.*)
+Oh hey,how are you?;Hi there
+hi
+Howdey Partner ;Hi ,tell me something about yourself
+good morning
+Oh hey,how are you?;Hi there
+(?:good|brillant|excellent|superb)
+Why do you think it is good?;Yeah i like it too 
+sad (.*)
+Why are you sad?
+if (.*)
+Do you think its likely that %s;What would you do if %s ?;But what are the chances that %s ?
+perhaps (.*)
+You dont seem too certain that %s;You arent sure?
+computer
+Do computers worry you?;Do you like computers?
+//
+//  General chat
+(?:college|school|course|study)
+Oh thats cool ,what are you studying?;What is your favourite subject?
+interesting     
+Why do you find it interesting?;What interest you about it?
+(?:i recall|i remember)(.*)
+Do you often think of %s?;What else does %s remind you of ?;What else does %s remind you of?
+you remember (.*)
+How could I forget %s ?;What about %s should I remember?
+remember (.*)
+Was I suppose to remember that?
+thank you
+Your welcome;No need to thank me
+sorry(.*)
+Please don't apologise;It did not bother me please continue
+(?:recall|remember)(.*)
+Of course i remember %s
+are you (.*)
+Why are you interested in whether I am %s;What if I were %s?
+(?:you're|your) (.*)
+Why are you concerned over my %s?;Do you want my %s?
+was i (.*)
+What if you were %s?;What would it mean if you were %s?
+i was (.*)
+Were you really %s?; Maybe I already know you were %s....
+(?:i cant|i can't|i cannot) (.*)
+how do you know you can't %s?;Do you really want to be able to %s?
+(?:i dont| i do not|i don't) (.*)
+Dont you really %s;Do you wish to be able to %s
+(?:i(.*)it)
+Why do you %s it?; As long as you %s it thats all that matters
+(?:i(.*)you)
+Do you wish to %s me?; Why do you %s me?
+you live 
+I live nowhere and everywhere; I am in the computer where do you live?
+(?:i live|i am from) (.*)
+Do you like to be %s; what is it like,over %s
+(.*)you(.*)
+We were discussing you;Your not really talking about me;How about %s you
+(?:i feel|i think|it seems) (.*)
+Why do you think %s?;Why do you feel %s?
+(?:yes|ya|indeed|of course)
+You seem quite certain;I understand;You are sure
+(?i)^\s*No\s*$
+Are you just sayin that to be negative?;Why not?
+no one (.*)
+Are you sure no one %s?;Surely someone %s
+my (.*)
+Your %s?;why do you say your %s?;Is it important that your %s?
+what
+Why do you ask?;Is that really important now?;What would you want to hear?;Have you asked anyone else?
+why dont you(.*)
+Why do you think i dont %s?;Why dont you %s?;Why would you want me to %s?
+(?:everybody|everyone) (.*)
+Really,everyone %s?;who,for example? 
+(?:work|job|employ|working) (.*)
+And do you enjoy workin at %s?; Do ya get payed well working %s?
+i like (.*)
+Why do you like %s?;what makes you like %s?
+//

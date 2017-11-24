@@ -1,4 +1,4 @@
-# DATA REPRESENTATION AND QUERYING PROJECT: Eliza ChatBot
+# Data Representation and Querying project: Eliza ChatBot
 
 Name : Peter Larkin
 
@@ -12,15 +12,15 @@ Year: Third Year
 
 1: First clone my repository:
 
-	-Enter "git clone https://github.com/Mrlarkin24/Eliza.git" into command prompt
+	Enter "git clone https://github.com/Mrlarkin24/Eliza.git" into command prompt
 	
 2: Find cloned repository on system and build Chat.go (that is a capital (C)hat.go)
 
-	-Enter "go build Chat.go" into command prompt
+	Enter "go build Chat.go" into command prompt
 
 3: Run Chat.exe by double clicking it
 
-4:Go to your web browser and enter 127.0.0.1:8080 or localhost:8080 to load webpage
+4: Go to your web browser and enter 127.0.0.1:8080 or localhost:8080 to load webpage
 
 # Some examples of what to ask Eliza:
 
